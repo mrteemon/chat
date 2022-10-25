@@ -1,9 +1,46 @@
-body {
-  font-family: 'Lato', sans-serif;
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
-.container-1 div{
-  padding : 10px;
-  border : 1px solid silver;
-  
+body {
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+}
+
+/* reset end */
+
+.line {
+    border: 1px dashed darkgray;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.box1 {
+    display: flex;
+    width: 72px;
+}
+
+.box2 {
+    display: flex;
+    width: 260px;
+}
+
+.box3 {
+    display: flex;
+    flex-grow: 1;
+}
+
+.box4 {
+    display: flex;
+    width: 201px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
