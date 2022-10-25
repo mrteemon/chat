@@ -4,6 +4,11 @@ html, body {
     height: 100%;
 }
 
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
     line-height: 1;
     font-family: 'Lato', sans-serif;
@@ -41,6 +46,7 @@ body {
     width: 201px;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+.menu {
+    display: flex;
+    flex-direction: column;
 }
