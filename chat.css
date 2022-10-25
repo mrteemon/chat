@@ -14,8 +14,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* reset end */
-
 .line {
     border: 1px dashed darkgray;
 }
@@ -29,6 +27,38 @@ body {
 .box1 {
     display: flex;
     width: 72px;
+    position: absolute;
+   left: -0.04%;
+   right: 94.93%;
+   top: -0.06%;
+   bottom: -0.06%;
+   background: #000000;
+   mix-blend-mode: normal;
+   opacity: 0.9;
+}
+
+.menu {
+   display: flex;
+   flex-direction: column;
+   margin-top: 32px;
+}
+
+
+.ryg {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   left: -4px;
+   top: -0.5px;
+}
+
+
+.add {
+   position: absolute;
+   left: -0.04%;
+   right: 94.93%;
+   top: 92.44%;
+   bottom: -0.06%;
 }
 
 .box2 {
@@ -44,9 +74,4 @@ body {
 .box4 {
     display: flex;
     width: 201px;
-}
-
-.menu {
-    display: flex;
-    flex-direction: column;
 }
