@@ -32,8 +32,37 @@ body {
 }
 
 .box2 {
+    background: #25272A;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+
     display: flex;
     width: 260px;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    color: white;
+}
+
+.box2__header{
+    width: 100%;
+}
+
+.header__item1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__caption{
+}
+
+.header__settings{
+
+}
+
+.header__item2{
+    margin-top: 30px;
 }
 
 .box3 {
