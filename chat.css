@@ -12,7 +12,6 @@ html, body {
 body {
     line-height: 1;
     font-family: 'Lato', sans-serif;
-    color: #000000;
 }
 
 .line {
@@ -28,31 +27,114 @@ body {
 .box1 {
     display: flex;
     width: 72px;
-    
-   background: #000000;
-   mix-blend-mode: normal;
-   opacity: 0.9;
+    flex-direction: column;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.ryg{
+ padding-top: 10px;
+ padding-right: 10px;
+ padding-left: 10px;
 }
 
 .menu {
    display: flex;
    flex-direction: column;
-   width: 100%;
-   margin-top: 32px;
+   width: 72px;
+   padding-top: 20px;
 }
 
+.menu__item{
+    padding-top: px;
+}
 
-.ryg {
+.justfy{
     display: flex;
-    
-
-
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 
 .box2 {
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #25272A;
+    mix-blend-mode: normal;
+    opacity: 0.89;
+}
+
+.nomads__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    width: 115px;
+}
+
+.nomads__text {
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   color: white;
+}
+
+.alltreads {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: #B5B5B5;
+}
+
+.channels{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.channels__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.friends{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fiends__header{
+    display: flex;
+    flex-direction: row;
+}
+
+.friedns__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .box3 {
