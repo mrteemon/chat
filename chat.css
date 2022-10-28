@@ -33,6 +33,7 @@ body {
     opacity: 0.9;
 }
 
+
 .ryg{
  padding-top: 10px;
  padding-right: 10px;
@@ -166,7 +167,8 @@ body {
     margin-left: -57px;
     max-height: 300px;
    overflow-y: scroll;
-}
+
+
 
 .box3 {
     min-width: 870px;
