@@ -14,8 +14,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* reset end */
-
 .line {
     border: 1px dashed darkgray;
 }
@@ -29,53 +27,228 @@ body {
 .box1 {
     display: flex;
     width: 72px;
+    flex-direction: column;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.9;
 }
 
-.box2 {
-    background: #25272A;
-    mix-blend-mode: normal;
-    opacity: 0.75;
 
+.ryg{
+ padding-top: 10px;
+ padding-right: 10px;
+ padding-left: 10px;
+}
+
+.menu {
+   display: flex;
+   flex-direction: column;
+   width: 72px;
+   padding-top: 20px;
+}
+
+.menu__item{
+    padding-top: px;
+}
+
+.justfy{
     display: flex;
-    width: 260px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.box2 {
+    
     padding-top: 35px;
     padding-left: 25px;
     padding-right: 25px;
+    background: #25272A;
+    mix-blend-mode: normal;
+    opacity: 0.89;
+}
 
+.nomads__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    width: 115px;
+}
+
+.nomads__text {
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   color: white;
+}
+
+.alltreads {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: #B5B5B5;
+   margin-top: 30px;
+}
+
+
+.channels__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #919191;
+
+}
+
+.channels__list {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: #B5B5B5; 
+   max-height: 340px;
+   overflow-y: scroll; 
+}
+
+
+
+.clg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 18px;
+    width: 213px; height: 30px; /* Размеры */
+    background: #B5B5B5; /* Цвет фона */
+    border-radius: 5px; /* Радиус скругления */
+    display: inline-block;
+    border: 2px solid transparent;
     color: white;
 }
 
-.box2__header{
-    width: 100%;
+.cl{
+    margin-top: 12px;
 }
 
-.header__item1{
+
+.fiends__header{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #919191;
 }
 
-.header__caption{
-}
 
-.header__settings{
+.fl{
+    margin-top: 28px;
+    margin-left: -57px;
+    max-height: 300px;
+   overflow-y: scroll;
 
-}
 
-.header__item2{
-    margin-top: 30px;
-}
 
 .box3 {
+    min-width: 870px;
+}
+
+.top{
+    
+    margin-top: 35px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.tf {
     display: flex;
-    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_star {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.followers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.so {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_star {
+    padding-left: 340px;
+}
+
+.search {
+
+}
+
+.other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box4 {
     display: flex;
-    width: 201px;
+    flex-direction: column;
+    width: 200px;
+    background: #B5B5B5;
 }
 
-.menu {
+
+.userphoto {
+    margin-left: -1051px;
+    margin-bottom: -99px;
+}
+
+.basic {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.user_status {
+    margin-left: 6px;
 }
