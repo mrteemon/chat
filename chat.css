@@ -59,9 +59,7 @@ body {
 
 
 .box2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
     padding-top: 35px;
     padding-left: 25px;
     padding-right: 25px;
@@ -104,45 +102,151 @@ body {
    font-size: 14px;
    line-height: 17px;
    color: #B5B5B5;
+   margin-top: 30px;
 }
 
-.channels{
-    display: flex;
-    flex-direction: column;
-
-}
 
 .channels__header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #919191;
 
 }
 
-.friends{
+.channels__list {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: #B5B5B5; 
+   max-height: 340px;
+   overflow-y: scroll; 
+}
+
+
+
+.clg{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 18px;
+    width: 213px; height: 30px; /* Размеры */
+    background: #B5B5B5; /* Цвет фона */
+    border-radius: 5px; /* Радиус скругления */
+    display: inline-block;
+    border: 2px solid transparent;
+    color: white;
 }
+
+.cl{
+    margin-top: 12px;
+}
+
 
 .fiends__header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #919191;
 }
 
-.friedns__list{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
+.fl{
+    margin-top: 28px;
+    margin-left: -57px;
+    max-height: 300px;
+   overflow-y: scroll;
 }
 
 .box3 {
+    min-width: 870px;
+}
+
+.top{
+    
+    margin-top: 35px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.tf {
     display: flex;
-    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_star {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.followers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.so {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_star {
+    padding-left: 340px;
+}
+
+.search {
+
+}
+
+.other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box4 {
     display: flex;
-    width: 201px;
+    flex-direction: column;
+    width: 200px;
+    background: #B5B5B5;
+}
+
+
+.userphoto {
+    margin-left: -1051px;
+    margin-bottom: -99px;
+}
+
+.basic {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.user_status {
+    margin-left: 6px;
 }
