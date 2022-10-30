@@ -14,10 +14,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.line {
-    border: 1px dashed darkgray;
-}
-
 .container {
     display: flex;
     flex: 1;
@@ -26,15 +22,15 @@ body {
 
 .box1 {
     display: flex;
-    width: 72px;
     flex-direction: column;
+    width: 72px;
     background: #000000;
     mix-blend-mode: normal;
     opacity: 0.9;
 }
 
 
-.ryg{
+.ryg {
  padding-top: 10px;
  padding-right: 10px;
  padding-left: 10px;
@@ -47,11 +43,11 @@ body {
    padding-top: 20px;
 }
 
-.menu__item{
+.menu__item {
     padding-top: px;
 }
 
-.justfy{
+.justfy {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,7 +56,7 @@ body {
 
 
 .box2 {
-    
+    width: 260px;
     padding-top: 35px;
     padding-left: 25px;
     padding-right: 25px;
@@ -107,7 +103,7 @@ body {
 }
 
 
-.channels__header{
+.channels__header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -131,7 +127,7 @@ body {
 
 
 
-.clg{
+.clg {
     display: flex;
     flex-direction: row;
     margin-top: 18px;
@@ -144,12 +140,12 @@ body {
     vertical-align: center;
 }
 
-.cl{
+.cl {
     margin-top: 12px;
 }
 
 
-.fiends__header{
+.fiends__header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -162,7 +158,7 @@ body {
 }
 
 
-.fl{
+.fl {
     margin-top: 28px;
     margin-left: -57px;
     max-height: 300px;
@@ -171,19 +167,19 @@ body {
 
 
 .box3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 870px;
-    padding-top: 35px;
-    padding-left: 23px;
-    padding-right: 23px;
+    flex-basis: 870px;
+    flex-grow: 1;
+    flex-shrink: 3;
+    
 }
 
-.top{
+.top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 23px;
+    padding-right: 23px;
     
 }
 
@@ -201,7 +197,7 @@ body {
 
 }
 
-.top__text{
+.top__text {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -222,6 +218,15 @@ body {
     align-items: center;
 }
 
+.followers__numb {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+color: #A4A4A4;
+}
+
 .so {
     display: flex;
     flex-direction: row;
@@ -229,57 +234,175 @@ body {
     align-items: center;
 }
 
-.search {
-    display: flex;
-    flex-direction: row;
-    margin-right: 24px;
-    align-items: center; 
-}
-
 input {
     width: 240px;
     height: 33px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #A4A4A4;
 }
 
 .other {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.bell {
-    margin-right: 24px;
+    gap: 23px;
 }
 
 hr {
+    margin-top: 20px;
     width: 100%;
-    color: black;
+    color: #A4A4A4;
 
 }
 
-.chat{
+.chat {
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 18px;
+    max-height: 650px;
+   overflow-y: scroll; 
+}
 
-
+.idiot {
+    margin-left: -329px;
+    padding-top: 18px;
+    
 }
 
 .left {
     float: left;
-    
-  
+    margin-right: 10px;
 }
 
-.idiot {
-    margin-left: -627px;
+.idiot__name {
+   text-align: left;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 14px;
+   color: #000000;
+
+
 }
+
+.time {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #8D8D8D;
+}
+
+.nt { 
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.comment {
+   padding-left: 375px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+   color: #000000;
+   text-align: left;
+   
+}
+
+.emoj {
+    margin-left: -30px;
+    margin-bottom: -85px;
+}
+
+a {
+    text-decoration: none;
+    color: #3577EF;
+}
+
+.date1, .date2, .date3 {
+    border: none;
+    border-top: 1px solid #A4A4A4;
+    color: #8D8D8D;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.date1:after {
+    background: #fff;
+    content: 'Monday, October 22nd';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.date2::after {
+    background: #fff;
+    content: 'Yesterday';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.date3::after {
+    background: #fff;
+    content: 'Today';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.write {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 49px;
+    padding-right: 23px;
+    padding-left: 23px;
+    padding-bottom: 28px;
+}
+
+.smm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 18px;
+}
+
+
+.mig {
+    width: 750px;
+    height: 25px;
+    border: 0px;
+}
+
+.smile {
+    margin-right: 30px;
+}
+
 
 
 
 .box4 {
-    max-width: 200px;
+    width: 200px;
     background: #B5B5B5;
 }
 
@@ -289,7 +412,7 @@ hr {
     margin-bottom: -99px;
 }
 
-.basic{
+.basic {
     margin-top: 15px;
     margin-left: 20px;
 }
@@ -305,7 +428,7 @@ hr {
     line-height: 19px;
 }
 
-.profession{
+.profession {
     margin-top: 3.5px;
 }
 
@@ -313,7 +436,7 @@ hr {
     margin-top: 20px;
 }
 
-.button{
+.button {
     display: flex;
     flex-direction: row;
     gap: 2.5px; 
